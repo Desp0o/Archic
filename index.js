@@ -1,7 +1,3 @@
-function news2(){
-    
-}
-
 
 window.addEventListener('scroll', () =>{
 
@@ -22,6 +18,17 @@ if(revealTop < windowHeght - revealPoint){
 
     document.getElementById('news3').style.marginTop = "0";
     document.getElementById('news3').style.opacity = "1";
+
+    window.onload = () =>{
+        document.getElementById('news1').style.marginTop = "0";
+        document.getElementById('news1').style.opacity = "1";
+
+        document.getElementById('news2').style.marginTop = "0";
+        document.getElementById('news2').style.opacity = "1";
+
+        document.getElementById('news3').style.marginTop = "0";
+        document.getElementById('news3').style.opacity = "1";
+    }
 }
 
 })
