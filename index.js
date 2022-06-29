@@ -16,7 +16,9 @@ if(revealTop < windowHeght - revealPoint){
     document.getElementById('news3').style.marginTop = "0";
     document.getElementById('news3').style.opacity = "1";
 
-    window.onload = () =>{
+    window.addEventListener('load',(e) =>{
+        if(revealTop < windowHeght - revealPoint){
+         
         document.getElementById('news1').style.marginTop = "0";
         document.getElementById('news1').style.opacity = "1";
 
@@ -27,7 +29,8 @@ if(revealTop < windowHeght - revealPoint){
         document.getElementById('news3').style.opacity = "1";
 
         seeMore.style.opacity = "1";
-    }
+        }
+    })
 }
 
 })
@@ -49,3 +52,20 @@ if(revealTop < windowHeght - seeMoreRevealPoint){
     }
 }
 })
+
+
+// კონტენტის გამოჩენა
+
+let hiddenContent = document.getElementById('second_news');
+let seeMore = document.getElementById('see_more');
+
+seeMore.addEventListener('click', () => {
+    hiddenContent.style.height = "fit-content";
+    hiddenContent.style.opacity = "1";
+    seeMore.style.display = "none";
+})
+
+
+
+    
+
