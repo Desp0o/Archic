@@ -23,7 +23,7 @@ window.addEventListener('scroll', () =>{
         window.addEventListener('load',(e) =>{
             
             if(revealTop < windowHeght - revealPoint){
-            
+            document.getElementById('news1').scrollIntoView();
             document.getElementById('news1').style.marginTop = "0";
             document.getElementById('news1').style.opacity = "1";
     
