@@ -1,10 +1,14 @@
+
+localStorage.scrollX = window.scrollX;
+localStorage.scrollY = window.scrollY;
+
 //საწყისი სამი ნიუსი
 window.addEventListener('scroll', () =>{
 
     let newsWindow = document.querySelector('.news');
     let windowHeght = window.innerHeight;
     let revealTop = newsWindow.getBoundingClientRect().top;
-    let revealPoint = 100;
+    let revealPoint = 80;
     
     if(revealTop < windowHeght - revealPoint){
         document.getElementById('news1').style.marginTop = "0";
@@ -17,8 +21,9 @@ window.addEventListener('scroll', () =>{
         document.getElementById('news3').style.opacity = "1";
     
         window.addEventListener('load',(e) =>{
+            
             if(revealTop < windowHeght - revealPoint){
-             
+            
             document.getElementById('news1').style.marginTop = "0";
             document.getElementById('news1').style.opacity = "1";
     
