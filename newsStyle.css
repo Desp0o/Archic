@@ -36,6 +36,11 @@
     transition: all 0.6s ease-out;
 }
 
+.newsimportant{
+    margin-top: 0 !important;
+    opacity: 1 !important;
+}
+
 .news_2{
     width: 30%;
     height: 100%;
