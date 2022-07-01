@@ -37,8 +37,14 @@
 }
 
 .newsimportant{
-    margin-top: 0 !important;
-    opacity: 1 !important;
+    width: 30%;
+    height: 100%;
+    opacity: 1;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    
 }
 
 .news_2{

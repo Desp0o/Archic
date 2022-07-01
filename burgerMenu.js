@@ -1,4 +1,4 @@
-let navbar = document.getElementById('navbar');
+var navbar = document.getElementById('navbar');
 let burger = document.getElementById('burger-logo');
 let darkMenu = document.getElementById('menu_black');
 let xMark = document.getElementById('x_mark');

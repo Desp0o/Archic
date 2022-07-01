@@ -22,20 +22,21 @@ window.addEventListener('scroll', () =>{
     
         window.addEventListener('load',(e) =>{
             
-            if(revealTop < windowHeght - revealPoint){
+            
             document.getElementById('news1').scrollIntoView();
-            document.getElementById('news1').style.marginTop = "0";
-            document.getElementById('news1').style.opacity = "1";
+            document.getElementById('news1').classList.remove('news_1')
+            document.getElementById('news1').classList.add('newsimportant')
     
-            document.getElementById('news2').style.marginTop = "0";
-            document.getElementById('news2').style.opacity = "1";
+            
+            document.getElementById('news2').classList.remove('news_2')
+            document.getElementById('news2').classList.add('newsimportant')
     
-            document.getElementById('news3').style.marginTop = "0";
-            document.getElementById('news3').style.opacity = "1";
+            document.getElementById('news3').classList.remove('news_3')
+            document.getElementById('news3').classList.add('newsimportant')
     
             
             
-            }
+            
         })
     }
     
