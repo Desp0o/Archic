@@ -64,11 +64,13 @@ window.addEventListener('scroll', () =>{
     
     let hiddenContent = document.getElementById('second_news');
     let seeMore = document.getElementById('see_more');
-    
+    let navbar = document.getElementById('navbar');
+
     seeMore.addEventListener('click', () => {
         hiddenContent.style.height = "fit-content";
         hiddenContent.style.opacity = "1";
         seeMore.style.display = "none";
+        navbar.style.backgroundColor = "";
     })
     
     
