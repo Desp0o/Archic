@@ -70,7 +70,7 @@ window.addEventListener('scroll', () =>{
         hiddenContent.style.height = "fit-content";
         hiddenContent.style.opacity = "1";
         seeMore.style.display = "none";
-        navbar.style.backgroundColor = "";
+        
     })
     
     
