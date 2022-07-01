@@ -34,7 +34,7 @@ window.addEventListener('scroll', () =>{
             document.getElementById('news3').style.opacity = "1";
     
             seeMore.style.opacity = "1";
-            hiddenContent.style.height = "0";
+            hiddenContent.style.height = "fit-content";
             }
         })
     }
