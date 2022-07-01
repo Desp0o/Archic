@@ -454,12 +454,45 @@ body{
     cursor: pointer;
 }
 
+@media(max-width:1000px){
+    .residental_inner,
+    .public_inner,
+    .hotels_inner,
+    .urban_inner{
+        opacity: 1;
+        transform: scale(1);
+        width: 70%;
+        height: 50%;
+    }
+}
+
+@media(max-width:700px){
+    .residental_inner_header{
+        font-size: 25px ;
+    }
+}
+
+@media(max-width:600px){
+    .residental_inner_header{
+        font-size: 23px ;
+    }
+}
+
 .residental_inner_header,
 .public_inner_header,
 .hotels_inner_header,
 .urban_inner_header{
     text-transform: uppercase;
     font-size: 30px;
+}
+
+@media(max-width:500px){
+    .residental_inner_header,
+    .public_inner_header,
+    .hotels_inner_header,
+    .urban_inner_header{
+        font-size: 20px;
+    }
 }
 
 .residental_inner:hover,
