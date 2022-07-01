@@ -108,10 +108,32 @@
     margin-top: 2%;
 }
 
+@media(max-width:830px){
+    .news p{
+        font-size: 14px;
+    }
+}
+
+
 .news a{
     text-decoration: none;
     color: #333333;
     transition: all 0.3s ease;
+}
+
+@media(max-width:830px){
+    .news a{
+        font-size: 18px;
+    } 
+}
+
+@media(max-width:500px){
+    .news a{
+        font-size: 14px;
+    } 
+    .news p{
+        font-size: 12px;
+    }
 }
 
 .news a:hover{
@@ -136,6 +158,11 @@
     margin-right: auto;
     opacity: 0;
     transition: all 2s ease;
+}
+
+@media(max-height:640px){
+    
+#see_more{margin-top: 4%;}
 }
 
 /**************** Second ******************/
@@ -170,10 +197,31 @@
     margin-top: 2%;
 }
 
+@media(max-width:830px){
+    #second_news p{
+        font-size: 14px;
+    } 
+}
+
 #second_news a{
     text-decoration: none;
     color: #333333;
     transition: all 0.3s ease;
+}
+
+@media(max-width:668px){
+    #second_news a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:500px){
+    #second_news a{
+        font-size: 14px;
+    }
+    #second_news p{
+        font-size: 12px;
+    } 
 }
 
 #second_news a:hover{
