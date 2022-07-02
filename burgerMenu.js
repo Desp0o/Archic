@@ -33,3 +33,35 @@ gray.addEventListener('click', () =>{
     gray.style.display = "none"
     
 })
+
+
+///////////////////////////////////
+
+document.getElementById('menu-imgs1').addEventListener('mouseenter', ()=>{
+    document.getElementById('bheader-1').style.opacity= "1";
+})
+document.getElementById('menu-imgs1').addEventListener('mouseleave', ()=>{
+    document.getElementById('bheader-1').style.opacity= "0";
+})
+
+document.getElementById('menu-imgs2').addEventListener('mouseenter', ()=>{
+    document.getElementById('bheader-2').style.opacity= "1";
+})
+document.getElementById('menu-imgs2').addEventListener('mouseleave', ()=>{
+    document.getElementById('bheader-2').style.opacity= "0";
+})
+
+document.getElementById('menu-imgs3').addEventListener('mouseenter', ()=>{
+    document.getElementById('bheader-3').style.opacity= "1";
+})
+document.getElementById('menu-imgs3').addEventListener('mouseleave', ()=>{
+    document.getElementById('bheader-3').style.opacity= "0";
+})
+
+document.getElementById('menu-imgs4').addEventListener('mouseenter', ()=>{
+    document.getElementById('bheader-4').style.opacity= "1";
+})
+document.getElementById('menu-imgs4').addEventListener('mouseleave', ()=>{
+    document.getElementById('bheader-4').style.opacity= "0";
+})
+
