@@ -18,7 +18,7 @@
 
 .news{ 
     width: 90%;
-    height: 80vh;
+    height: fit-content;
 
     display: flex;
     margin: auto;
@@ -152,7 +152,7 @@
     width: fit-content;
     height: fit-content;
     padding: 3px 5px;
-    margin-top: -3%;
+    margin-top: -2%;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -162,7 +162,19 @@
 
 @media(max-height:640px){
     
-#see_more{margin-top: 4%;}
+#see_more{margin-top:0}
+}
+
+@media(min-height:800px){
+    #see_more{margin-top: -10%;}
+}
+
+@media(min-height:1280px){
+    #see_more{margin-top: -15%;}
+}
+
+@media(min-height:1600px){
+    #see_more{margin-top: -20%;}
 }
 
 /**************** Second ******************/
@@ -173,7 +185,7 @@
     opacity: 0;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 3% auto auto auto;
     transition: all 1s ease;
 }
 
