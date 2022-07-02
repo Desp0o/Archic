@@ -323,6 +323,21 @@ body{
         font-size: 13px;
     }
 }
+
+@media(max-width:500px){
+    .third_image{
+        height: 105vh;
+    }
+    .third_txt h1{
+        font-size: 20px;
+    }
+    .third_txt p{
+        font-size: 11px;
+    }
+    .third_txt a{
+        font-size: 12px;
+    }
+}
 /********************** FOURTH ************************/
 .fourth_content{
     width: 100%;
