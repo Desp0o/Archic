@@ -85,6 +85,9 @@ ul a:hover{
         width: 50%;
         height: 42vh; 
     }
+    .black_navbar_logo{
+        width: 10%;
+    }
 }
 
 @media(max-width:700px){
@@ -105,5 +108,8 @@ ul a:hover{
     .menu_pics{
         width: 75%;
         height: 38vh; 
+    }
+    .black_navbar_logo{
+        width:12%;
     }
 }
