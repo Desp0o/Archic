@@ -131,4 +131,8 @@ ul a:hover{
         width: 20px;
         height: auto;
     }
+    .menu_pics h4{
+        opacity: 1;
+        font-size: 14px;
+    }
 }

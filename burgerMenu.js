@@ -9,9 +9,9 @@ let body = document.querySelector('html');
 
 window.addEventListener('scroll', ()=>{
     let scroll = window.scrollY;
+
     if(scroll){
     navbar.style.backgroundColor = "white";
-    navbar.style.top = "2px";
     }else{
         navbar.style.backgroundColor = "";
         navbar.style.top = "0px";
@@ -29,7 +29,7 @@ burger.addEventListener('click', (e)=>{
 xMark.addEventListener('click', ()=>{
     darkMenu.style.right = "-70%";
     gray.style.display = "none";
-    body.style.overflow = "visible";
+    body.style.overflow = "auto";
 })
 
 gray.addEventListener('click', () =>{
