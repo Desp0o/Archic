@@ -79,3 +79,31 @@ ul a:hover{
     font-size: 24px;
     transition: all 0.4s ease;
 }
+
+@media(max-width:800px){
+    .menu_pics{
+        width: 50%;
+        height: 42vh; 
+    }
+}
+
+@media(max-width:700px){
+    .menu_pics{
+        width: 55%;
+        height: 42vh; 
+    }
+}
+
+@media(max-width:600px){
+    .menu_pics{
+        width: 60%;
+        height: 42vh; 
+    }
+}
+
+@media(max-width:501px){
+    .menu_pics{
+        width: 75%;
+        height: 38vh; 
+    }
+}
