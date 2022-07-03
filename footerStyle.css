@@ -136,4 +136,8 @@ footer{
         width: 50px;
         height: auto;
     }
+    .footer_logos img{
+        width:20px;
+        height: auto;
+    }
 }
