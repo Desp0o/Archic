@@ -1,5 +1,4 @@
 
-localStorage.scrollX = window.scrollX;
 localStorage.scrollY = window.scrollY;
 
 //საწყისი სამი ნიუსი

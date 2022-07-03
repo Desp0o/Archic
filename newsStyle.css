@@ -12,7 +12,6 @@
     font-size: 50px;
     width: 87.55%;
     margin: auto auto 5% auto ;
-
 }
 
 
@@ -134,6 +133,10 @@
     .news p{
         font-size: 12px;
     }
+    .six_header{
+        font-size: 30px;
+        
+    }
 }
 
 .news a:hover{
@@ -176,6 +179,7 @@
 @media(min-height:1600px){
     #see_more{margin-top: -20%;}
 }
+
 
 /**************** Second ******************/
 

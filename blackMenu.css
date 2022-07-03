@@ -80,6 +80,17 @@ ul a:hover{
     transition: all 0.4s ease;
 }
 
+.dark_menu_logos img{
+    width: 25px;
+    height: auto;
+}
+
+.dark_menu_logos{
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 @media(max-width:800px){
     .menu_pics{
         width: 50%;
@@ -87,6 +98,10 @@ ul a:hover{
     }
     .black_navbar_logo{
         width: 10%;
+    }
+    .menu_pics h4{
+        opacity: 1;
+        font-size: 18px;
     }
 }
 
@@ -111,5 +126,9 @@ ul a:hover{
     }
     .black_navbar_logo{
         width:12%;
+    }
+    .dark_menu_logos img{
+        width: 20px;
+        height: auto;
     }
 }

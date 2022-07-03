@@ -51,6 +51,22 @@ footer{
     border: solid 1px white;
 }
 
+.footer_logos {
+    margin-left:8% ;
+    margin-top: 12%;
+    
+}
+
+.footer_logos a{
+    width: fit-content;
+    height: 40vh;
+}
+
+.footer_logos img{
+    width:25px;
+    height: auto;
+}
+
 @media(max-width:800px){
     .row p{
         font-size: 13px;
@@ -101,6 +117,11 @@ footer{
     }
     .footer-logo{
         margin-top: 0;
+    }
+    .footer_logos {
+        margin-left:7% ;
+        margin-top: 0;
+        
     }
 }
 
