@@ -163,21 +163,12 @@
     transition: all 2s ease;
 }
 
-@media(max-height:640px){
-    
-#see_more{margin-top:0}
-}
 
-@media(min-height:800px){
-    #see_more{margin-top: -10%;}
-}
 
-@media(min-height:1280px){
-    #see_more{margin-top: -15%;}
-}
-
-@media(min-height:1600px){
-    #see_more{margin-top: -20%;}
+@media(min-width:1900px){
+    #see_more{
+        margin-top:0 ;
+    }
 }
 
 
