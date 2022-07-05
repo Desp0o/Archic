@@ -11,15 +11,13 @@ window.addEventListener('scroll', ()=>{
     let scroll = window.scrollY;
 
     if(scroll){
-    navbar.style.backgroundColor = "white";
+        navbar.style.backgroundColor = "white";
     }else{
         navbar.style.backgroundColor = "";
-        navbar.style.top = "0px";
     }
 });
 
-burger.addEventListener('click', (e)=>{
-    e.preventDefault();
+burger.addEventListener('click', ()=>{
     darkMenu.style.right = "0";
     navbar.style.backgroundColor = "";
     gray.style.display = "block";
