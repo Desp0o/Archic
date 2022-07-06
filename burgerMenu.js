@@ -6,16 +6,7 @@ let xMark = document.getElementById('x_mark');
 let gray = document.getElementById('gray');
 let body = document.querySelector('html');
 
-
-window.addEventListener('scroll', ()=>{
-    let scroll = window.scrollY;
-
-    if(scroll){
-        navbar.style.backgroundColor = "white";
-    }else{
-        navbar.style.backgroundColor = "";
-    }
-});
+navbar.style.backgroundColor = "white"
 
 burger.addEventListener('click', ()=>{
     darkMenu.style.right = "0";
@@ -28,12 +19,14 @@ xMark.addEventListener('click', ()=>{
     darkMenu.style.right = "-70%";
     gray.style.display = "none";
     body.style.overflow = "auto";
+    navbar.style.backgroundColor = "white"
 })
 
 gray.addEventListener('click', () =>{
     darkMenu.style.right = "-70%";
     gray.style.display = "none";
     body.style.overflowY = "auto";
+    navbar.style.backgroundColor = "white"
 })
 
 
